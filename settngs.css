@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'designer-regular';
+    src: url('fonts/titolo/designer-webfont.woff2') format('woff2'),
+         url('fonts/titolo/designer-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviar-dreams';
+    src: url('fonts/paragrafi/caviardreams-webfont.woff2') format('woff2'),
+         url('fonts/paragrafi/caviardreams-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0px;
+}
+.paragraph{
+    font-family: "caviar-dreams";
+    text-align: center;
+    font-size: 18px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+.sfondo{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+button {
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-top: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'caviar-dreams';
+    font-size: 16px;
+}
+button:hover, button:active {
+    background-color: black;
+    color: white;
+}
+.btnhome{
+    border-radius: 25px;
+    position: absolute;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+	top:0px;
+    right: 0px;
+    margin: 25px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    float: right;
+    font-family: 'caviar-dreams';
+    font-size: 16px;
+
+}
+.btnhome:hover, .btnhome:active{
+    background-color: white;
+    color: black;
+}
+.title{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color:white;
+    padding: 13px;
+    font-family: "designer-regular";
+    font-size: 45px;
+    text-decoration: none;
+}
+.slogan {
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    color:white;
+    font-family: "designer-regular";
+    font-size: 84px;
+}
+.cont{
+    position: relative;
+    width: 100%;
+}
+.imagine{
+    width: 100%;
+    height: 95px;
+    object-fit: cover;
+}
