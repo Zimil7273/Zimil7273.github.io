@@ -26,7 +26,7 @@ function Sign_in() {
     Passwd = document.getElementById("passwd").value;
     Passwd1 = document.getElementById("passwd1").value;
     if (Email == "" || Passwd == "" || Name == "" || Surname == "" || Passwd1 == "" ) {
-        alert("Invalid Username or Password");
+        alert("Invalid Credentials");
         logged = false;
     }else {
         if(Passwd != Passwd1){
@@ -34,6 +34,7 @@ function Sign_in() {
             logged = false;
         }else{
             logged = true 
+            document.location='index.html'
         }
     }
 }
