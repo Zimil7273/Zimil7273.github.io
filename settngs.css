@@ -96,3 +96,77 @@ button:hover, button:active {
     height: 95px;
     object-fit: cover;
 }
+.inputText{
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'caviar-dreams';
+    font-size:20px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+.submit {
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-top: 10px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'caviar-dreams';
+    font-size: 16px;
+    margin: auto;
+    display: block;
+}
+.submit:hover, .submit:active {
+    background-color: black;
+    color: white;
+}
+.LogIn{
+    border-radius: 25px;
+    position: absolute;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+	top: 70px;
+    right: 0px;
+    margin: 25px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    float: right;
+    font-family: 'caviar-dreams';
+    font-size: 16px;
+
+}
+.LogIn:hover, .LogIn:active{
+    background-color: white;
+    color: black;
+}
+.SignIn{
+    border-radius: 25px;
+    position: absolute;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+	top: 140px;
+    right: 0px;
+    margin: 25px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    float: right;
+    font-family: 'caviar-dreams';
+    font-size: 16px;
+
+}
+.SignIn:hover, .SignIn:active{
+    background-color: white;
+    color: black;
+}
