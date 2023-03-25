@@ -34,7 +34,7 @@ function Sign_in() {
             logged = false;
         }else{
             logged = true 
-            document.location='index.html'
+            document.location='index.html';
         }
     }
 }
